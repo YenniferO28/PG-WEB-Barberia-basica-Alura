@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Contacto - Barberia Alura</title>
+</head>
+
+<body>
+    <header>
+        <div class="caja">
+            <h1>
+                <a href="index.html"> <img src="img/logo.png" class="logo"></a>
+            </h1>
+            <nav>
+                <ul class="nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="productos.html ">Productos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+    <main>
+        <form>
+            <label for="nombreapellido">Nombre completo</label>
+            <input type="text" id="nombreapellido" class="input-padron">
+
+            <label for="correo">Correo Electronico</label>
+            <input type="text" id="correo" class="input-padron">
+
+            <label for="telefono">Telefono</label>
+            <input type="text" id="telefono" class="input-padron">
+
+            <label for="mensaje">Mensaje</label>
+            <textarea  id="mensaje" cols="70" rows="10" class="input-padron"></textarea>
+
+            <div>
+                <p class="test" id="test">Como le gustaria que lo contactemos?</p>
+
+                <label for="radio-email"><input type="radio" name="contacto" value="email"
+                        id="radio-email">Email</label>
+
+                <label for="radio-telefono"> <input type="radio" name="contacto" value="telefono" id="radio-telefono">
+                    Telefono</label>
+
+                <label for="radio-whatsapp"> <input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp">
+                    Whatsapp</label>
+            </div>
+            <label class="checkbox"><input type="checkbox">Le gustaria recibir novedades de la Barberia Alura?</label>
+
+            <input type="submit" value="Enviar Formulario">
+
+
+
+        </form>
+
+    </main>
+    <footer>
+        <img src="img/logo-blanco.png" alt="">
+        <p>Desarrollado por Yennifer Ortega</p>
+    </footer>
+</body>
+
+</html>
