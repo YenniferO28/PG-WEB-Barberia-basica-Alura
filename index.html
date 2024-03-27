@@ -4,36 +4,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cedarville+Cursive&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="css/styles-home.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Barberia Alura</title>
 </head>
 
 <body>
     <header>
-        <h1>Barberia Alura</h1>
-        <nav>
-            <ul class="nav">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="productos.html ">Productos</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-        <img src="img/banner.jpg" alt="">
+        <div class="caja">
+            <h1>
+                <a href="index.html"> <img src="img/logo.png" class="logo"></a>
+            </h1>
+            <nav>
+                <ul class="nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="productos.html ">Productos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
 
-        
+        </div>
     </header>
+
+    <img src="img/banner.jpg" id="banner">
     <main>
-        <div class="info">
-            <h1>Sobre la Barbería Alura</h1>
+        <section class="info">
+            <h2 class="titulo-info">Sobre la Barbería Alura</h2>
+            <img src="img/utensilios[1].jpg" class="utensilios">
             <p>
                 Ubicada en el corazón de la ciudad, la Barbería Alura trae para el mercado lo que hay de mejor para su
                 cabello y barba. Fundada en 2020, la Barbería Alura ya es destaque en la ciudad y conquista nuevos
                 clientes
                 diariamente.
             </p>
-            <h2>Nuestra misión es: <em> "Proporcionar autoestima y calidad de vida a nuestros clientes".            </h2>
+            <h3>Nuestra misión es: <em> "Proporcionar autoestima y calidad de vida a nuestros clientes".</h3>
             </em>
             
             <p>
@@ -42,9 +45,9 @@
                 mundo de la moda, para así ofrecer a nuestros clientes las últimas tendencias. El atendimiento posee un
                 padrón de excelencia y agilidad, garantizando calidad y satisfacción de nuestros clientes.
             </p>
-        </div>
-        <div class="Diferenciales">
-            <h2>Diferenciales</h2>
+        </section>
+        <section class="Diferenciales">
+            <h2 class="titulo-principal">Diferenciales</h2>
             <ul>
                 <li>Atencion personalizada</li>
                 <li>Espacio diferenciado</li>
@@ -53,10 +56,11 @@
             </ul>
 
             <img src="img/diferenciales.jpg" class="diferenciales__img">
-        </div>
+        </section>
     </main>
     <footer>
-        Desarrollado por Yennifer Ortega
+        <img src="img/logo-blanco.png" alt="">
+        <p>Desarrollado por Yennifer Ortega</p>
     </footer>
 </body>
 
